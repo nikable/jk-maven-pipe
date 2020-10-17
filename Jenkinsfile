@@ -1,5 +1,5 @@
 pipeline {
-    agent {label 'linux'}
+    agent {label 'master'}
     tools {
       maven 'maven-3.5.0'
     }
