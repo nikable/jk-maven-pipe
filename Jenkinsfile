@@ -2,11 +2,13 @@ pipeline {
     agent {label 'linux'}
 
     stages {
-        stage ('hello')
-           {
+        stage ('hello'){
+           steps {
            script {
-                echo "test"
-        }
+                           echo "test"
+            }
+
+           }
         }
     }
 }
