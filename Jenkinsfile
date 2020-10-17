@@ -4,7 +4,9 @@ pipeline {
     stages {
         stage ('hello')
            {
+           script {
                 echo "test"
+        }
         }
     }
 }
